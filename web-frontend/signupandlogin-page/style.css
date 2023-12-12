@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*body{
+    background-color: rgb(81, 75, 75);
+}
+
+.glass-container h2{
+    font-size: 5em;
+    color: aquamarine;
+    text-shadow: 0 10px 20px rgba(0, 0, 0, .5);
+    pointer-events: none;
+    user-select: none;
+}
+
+.glass-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.glass-container .glass{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, .2);
+    border-radius: 50px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-right: 2px solid rgba(255, 255, 255, .2);
+    border-bottom: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(3px);
+}*/
+
+/** Side-Menu**/
+
+.side-menu{
+    width: 20%;
+    height: 100vh;
+    background-color: #2B2937;
+    padding: 3rem 2.3rem;
+}
+
+
+.logo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: #ffff;
+    margin: 1rem;
+    
+    
+}
