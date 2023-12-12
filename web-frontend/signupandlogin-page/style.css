@@ -6,11 +6,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/*body{
-    background-color: rgb(81, 75, 75);
+body{
+    background-color: #3b3849;
 }
 
-.glass-container h2{
+/*.glass-container h2{
     font-size: 5em;
     color: aquamarine;
     text-shadow: 0 10px 20px rgba(0, 0, 0, .5);
@@ -68,4 +68,21 @@
 .content ul p:hover{
     background-color: #575797;
     color: white;
+}
+
+.head {
+    position: absolute;
+    top: 1em;
+    left: 20em;
+    padding: 1em;
+    color: white;
+  }
+
+#first{
+    font-weight: bolder;
+    font-size: 30px;
+}
+#second{
+    font-size: 10px;
+
 }
