@@ -52,7 +52,20 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
     color: #ffff;
-    margin: 1rem;
+    margin: 1em auto 2em;
     
-    
+}
+
+.content ul p{
+    color: #fff;
+    margin: 1em 0;
+    padding: 1.5em 0;
+    transition: background-color 0.3s ease;
+    border-radius: 8px; /* Add rounded corners */
+    text-align: center; 
+}
+
+.content ul p:hover{
+    background-color: blue;
+    color: white;
 }
