@@ -10,6 +10,10 @@ body{
     background-color: #3b3849;
 }
 
+.container{
+    display: flex;
+}
+
 /*.glass-container h2{
     font-size: 5em;
     color: aquamarine;
@@ -61,7 +65,7 @@ body{
     margin: 1em 0;
     padding: 1.5em 0;
     transition: background-color 0.3s ease;
-    border-radius: 8px; /* Add rounded corners */
+    border-radius: 8px; 
     text-align: center; 
 }
 
@@ -70,10 +74,14 @@ body{
     color: white;
 }
 
+main-body{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
 .head {
-    position: absolute;
-    top: 1em;
-    left: 20em;
+   
     padding: 1em;
     color: white;
   }
@@ -86,3 +94,118 @@ body{
     font-size: 10px;
 
 }
+
+/*.create-dwn{
+    position: absolute;
+    top: 9em;
+    left: 20em;
+    padding: 1em;
+    color: white;
+}
+
+.create-dwn p{
+    font-size: 18px;
+    
+}
+
+.glass{
+    width: 200px;
+    height: 75px;
+    background: rgba(255, 255, 255, .1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, .2);
+    border-radius: 40px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-right: 2px solid rgba(255, 255, 255, .2);
+    border-bottom: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+}   */
+
+
+.create-dwn {
+    position: relative;
+    left: 8%;
+    top: 5%;
+   
+  }
+  
+  .create-dwn p {
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .glass {
+    width: 300px;
+    height: 75px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-right: 2px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 1.8s ease;
+  }
+
+  .glass:hover{
+    background: #575797;
+  }
+
+  .recent{
+    position: relative;
+    top: 14%;
+    left: 5%;
+    
+    
+  }
+
+  .glass2{
+    width: 300px;
+    height: auto;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-right: 2px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    transition: background-color 1.8s ease;
+
+  }
+
+  h3{
+    font-weight: 800;
+    font-size: 25px;
+    margin: 15px auto;
+    color: #fff;
+
+  }
+
+  .item{
+    margin: 15px;
+    transition: background-color 1s ease;
+    border-radius: 8px;
+    padding: 5px; 
+  }
+
+  .item:hover{
+    background-color: #575797;
+  }
+  
+  #main{
+    color: #fff;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+
+  #sub{
+    color: grey;
+    font-size: 13px;
+  }
