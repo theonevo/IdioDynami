@@ -8,10 +8,12 @@
 
 body{
     background-color: #3b3849;
+    height: auto;
 }
 
 .container{
     display: flex;
+    height: auto;
 }
 
 /*.glass-container h2{
@@ -158,8 +160,6 @@ main-body{
     position: relative;
     top: 14%;
     left: 5%;
-    
-    
   }
 
   .glass2{
@@ -209,3 +209,42 @@ main-body{
     color: grey;
     font-size: 13px;
   }
+
+  .cards{
+    position: relative;
+    top: -34%;
+    left: 55%;
+    display: flex;
+    flex-direction: column;
+  }
+
+ .cards .img img{
+    width: 70%;
+    height: auto;
+    margin: 0;
+    display: block;
+ }
+
+ .reports{
+    position: relative;
+    top: -85%;
+    left: 120%;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+ .reports h4{
+    color: #fff;
+ }
+ .reports p{
+    color: #fff;
+  
+ }
