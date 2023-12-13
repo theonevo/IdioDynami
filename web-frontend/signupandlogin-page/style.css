@@ -285,6 +285,13 @@ p {
     margin: 30px;
 }
 
+.sub-heading span{
+    color: #0073F2;
+    font-size: 1.7em;
+    font-family: tahoma;
+    margin-left: 5px;
+}
+
 h3, p {
     margin: 0;
 }
@@ -316,6 +323,13 @@ p {
     margin-bottom: 15px;
 }
 
+.loginform-row{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+
 .form-column {
     flex: 1;
     margin-right: 15px;
@@ -334,6 +348,9 @@ p {
     background: #FBFBFB;
 }
 
+#login-input{
+    width: 50%;
+}
 
 
 .form-buttons {
@@ -373,3 +390,9 @@ p {
     margin-left: .7em;
     color: #0073F2;
 }
+
+#login{
+    background: #48CED7;
+    margin-left: -285px;
+}
+
