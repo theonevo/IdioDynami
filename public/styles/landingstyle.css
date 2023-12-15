@@ -1,0 +1,461 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0; padding: 0;
+    outline: none; border: none;
+    text-decoration: none;
+}
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; 
+    background-image: url('dist/images/background-image.avif'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Optional: fixed background */
+    background-position: center center;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+
+}
+
+.logo p {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.site-header-middle ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.site-header-middle li {
+    margin-right: 20px;
+}
+
+.site-header-middle a {
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+}
+
+.site-header-middle a::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: blue; 
+    transition: width 0.3s ease; 
+}
+
+.site-header-middle a:hover::before {
+    width: 75%;
+}
+
+.icons ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.icons li {
+    margin-right: 10px;
+}
+
+.icons i {
+    font-size: 1.8em;
+    color: rgb(29, 89, 143);
+    transition: transform 0.3s ease;
+}
+
+.icons i:hover {
+    transform: scale(1.25); 
+}
+
+.main {
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.main-text p:first-child {
+    font-size: 3.5em;
+    font-weight: 800;
+    color: black;
+}
+
+/**#under {
+    font-size: 1.8em;
+    -webkit-background-clip: text; /
+    color: linear-gradient(85% blue, 15% lightgreen);
+    display: inline;
+    margin-top: 3em;
+    padding-top: 3em;
+}**/
+#under {
+    font-size: 3em;
+    position: relative;
+    display: inline;
+    margin-top: 5em;
+    padding-top: 3em;
+    color: transparent;
+}
+
+#under::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 3.3em;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient(85deg, blue, lightgreen);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+
+#under-text {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 2.2rem;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/*.cta p {
+    margin: 3rem;
+    padding: 10px 35px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    background: none;
+    color: rgb(235, 249, 249);
+}
+
+.cta a:first-child {
+    color: none;
+    background-color: blue;
+}
+
+.cta a:last-child {
+    color: #fff;
+    background-color: blue;
+    margin-left: 10px;
+}*/
+
+.cta p {
+    margin: 3rem;
+    text-decoration: none;
+    background: none;
+    color: rgb(107, 216, 216);
+    transition: transform 0.2s ease;
+}
+
+.cta p:hover{
+    transform: scale(1.25);
+}
+
+.cta a:first-child {
+    color: blue; 
+    background-color: transparent; 
+}
+
+.cta a:last-child {
+    color: black; 
+    background-color: transparent;
+    margin-left: 10px;
+}
+
+.cta p #now{
+    background-color: #816bc3;
+    padding: 10px 35px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+}
+
+
+.cta p #more{
+    background-color: #0d0c0f;
+    padding: 10px 35px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.demo{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    margin-top: 3rem;
+    padding: 20px;
+    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.demo img{
+    width: 75%;
+            height: auto; 
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+}
+
+.demo h2{
+    text-align: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 180px; 
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(251, 251, 251, 0.8)
+}
+
+.box i {
+    margin-right: 10px;
+    color: rgb(93, 93, 102); 
+}
+
+.box i:hover{
+    color: blue;
+}
+
+.box p {
+    margin: 0;
+}
+
+.tools {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-holder {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Optional: Add a subtle box shadow */
+    text-align: center;
+    transition: transform 0.1s ease;
+}
+
+.card:hover {
+    transform: translateY(-8%); 
+    background-color: #c3daea;
+}
+
+.card i {
+    font-size: 2em;
+    color: #3498db; 
+}
+
+h4{
+    margin: 15px 0;
+    color: #1c1b1b; 
+}
+
+p {
+    color: #777; 
+}
+
+.Howto {
+    background: radial-gradient(circle, #3498db, #2980b9, #1f6693, #0e3d6b);
+    padding: 30px;
+    border-top-left-radius: 130px; 
+    border-bottom-right-radius: 130px; 
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.Howto h1 {
+    margin-bottom: 20px;
+    color: #fff9f9;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+.step-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.step {
+    width: 60%;
+    margin: 40px;
+    text-align: left;
+    position: relative;
+}
+
+.step p{
+    margin: 15px 0;
+    color: #bbb7c2;
+}
+
+.step h5{
+    color: #fff;
+}
+
+#no {
+    position: absolute;
+    top: -50%;
+    left: 0;
+    transform: translate(0%, -50%);
+    width: 30px;
+    height: 30px;
+    background-color: #3498db; 
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-holder{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+}
+
+img {
+    width: 70px; 
+    margin-right: 90px;
+    margin-bottom: 10px;
+}
+
+
+
+
+/**
+.plans-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.plan-card {
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-size: cover;
+}
+
+.starter-plan {
+    background: #68A61C;
+}
+
+.personal-plan {
+    background: linear-gradient(45deg, #c4d3e1, #99aac6, #6f82ab, #4b5b91, #163057);
+}
+
+.team-plan {
+    background: linear-gradient(45deg, #f4e9e2, #d8c4b4, #bda08a, #a78d6d, #907b51, #e6b793);
+}
+
+.plan-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.plan-card::before {
+    content: "Popular";
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 12px;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 5px;
+    border-radius: 5px;
+    display: none;
+}
+
+.plan-card:hover::before {
+    display: block;
+}
+
+.plan-details {
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.start-plan-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.start-plan-btn:hover {
+    background-color: #eee;
+}**/
