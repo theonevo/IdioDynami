@@ -14,7 +14,7 @@ body {
     background-image: url('../images/background-image.avif'); 
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed; /* Optional: fixed background */
+    background-attachment: fixed; 
     background-position: center center;
 }
 
