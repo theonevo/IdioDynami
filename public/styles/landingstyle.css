@@ -11,7 +11,7 @@ body, h1, h2, p, ul {
 
 body {
     font-family: 'Roboto', sans-serif; 
-    background-image: url('dist/images/background-image.avif'); 
+    background-image: url('images/background-image.avif'); 
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; /* Optional: fixed background */
