@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #3b3849;
+    height: auto;
+}
+
+.container{
+    display: flex;
+    height: auto;
+}
+
+/*.glass-container h2{
+    font-size: 5em;
+    color: aquamarine;
+    text-shadow: 0 10px 20px rgba(0, 0, 0, .5);
+    pointer-events: none;
+    user-select: none;
+}
+
+.glass-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.glass-container .glass{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, .2);
+    border-radius: 50px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-right: 2px solid rgba(255, 255, 255, .2);
+    border-bottom: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(3px);
+}*/
+
+/** Side-Menu**/
+
+.side-menu{
+    width: 20%;
+    height: 100vh;
+    background-color: #2B2937;
+    padding: 3rem 2.3rem;
+}
+
+
+.logo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: #ffff;
+    margin: 1em auto 2em;
+    
+}
+
+.content ul p{
+    color: #fff;
+    margin: 1em 0;
+    padding: 1.5em 0;
+    transition: background-color 0.3s ease;
+    border-radius: 8px; 
+    text-align: center; 
+}
+
+.content ul p:hover{
+    background-color: #575797;
+    color: white;
+}
+
+main-body{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.head {
+   
+    padding: 1em;
+    color: white;
+  }
+
+#first{
+    font-weight: bolder;
+    font-size: 30px;
+}
+#second{
+    font-size: 10px;
+
+}
+
+/*.create-dwn{
+    position: absolute;
+    top: 9em;
+    left: 20em;
+    padding: 1em;
+    color: white;
+}
+
+.create-dwn p{
+    font-size: 18px;
+    
+}
+
+.glass{
+    width: 200px;
+    height: 75px;
+    background: rgba(255, 255, 255, .1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, .2);
+    border-radius: 40px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-right: 2px solid rgba(255, 255, 255, .2);
+    border-bottom: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+}   */
+
+
+.create-dwn {
+    position: relative;
+    left: 8%;
+    top: 5%;
+   
+  }
+  
+  .create-dwn p {
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .glass {
+    width: 300px;
+    height: 75px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-right: 2px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 1.8s ease;
+  }
+
+  .glass:hover{
+    background: #575797;
+  }
+
+  .recent{
+    position: relative;
+    top: 14%;
+    left: 5%;
+  }
+
+  .glass2{
+    width: 300px;
+    height: auto;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-right: 2px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    transition: background-color 1.8s ease;
+
+  }
+
+  h3{
+    font-weight: 800;
+    font-size: 25px;
+    margin: 15px auto;
+    color: #fff;
+
+  }
+
+  .item{
+    margin: 15px;
+    transition: background-color 1s ease;
+    border-radius: 8px;
+    padding: 5px; 
+  }
+
+  .item:hover{
+    background-color: #575797;
+  }
+  
+  #main{
+    color: #fff;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+
+  #sub{
+    color: grey;
+    font-size: 13px;
+  }
+
+  .cards{
+    position: relative;
+    top: -34%;
+    left: 55%;
+    display: flex;
+    flex-direction: column;
+  }
+
+ .cards .img img{
+    width: 70%;
+    height: auto;
+    margin: 0;
+    display: block;
+ }
+
+ .reports{
+    position: relative;
+    top: -85%;
+    left: 120%;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+ .reports h4{
+    color: #fff;
+ }
+ .reports p{
+    color: #fff;
+ }
+
+
+ /** Sign up page **/
+
+ body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.logo {
+    margin: 0;
+}
+
+.logo p {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.sub-heading {
+    text-align: left;
+    padding: 20px;
+    margin: 30px;
+}
+
+.sub-heading span{
+    color: #0073F2;
+    font-size: 1.7em;
+    font-family: tahoma;
+    margin-left: 5px;
+}
+
+h3, p {
+    margin: 0;
+}
+
+h3 {
+    font-size: 2em;
+    margin-bottom: .3em;
+}
+
+p {
+    font-size: .8em;
+    color: #fff;
+}
+
+
+
+
+.form-container {
+    max-width: 600px;
+    margin: 20px;
+    padding: 20px;
+    
+    
+}
+
+.form-row {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 15px;
+}
+
+.loginform-row{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+
+.form-column {
+    flex: 1;
+    margin-right: 15px;
+}
+
+.form-column:last-child {
+    margin-right: 0;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: #FBFBFB;
+}
+
+#login-input{
+    width: 50%;
+}
+
+
+.form-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+
+}
+
+.form-buttons button {
+    padding: 10px;
+    cursor: pointer;
+    border: 2px solid #575797;
+    border-radius: 8px;
+    padding: 10px 30px;
+}
+
+#confirm{
+    margin-left: 17em;
+    background: #48CED7;
+}
+
+#cancel{
+    background: #2E4788;
+}
+
+.option{
+    margin-top: 3em;
+    margin-left: 2em;
+}
+
+.option p{
+    font-size: 20px;
+}
+
+.option span{
+    margin-left: .7em;
+    color: #0073F2;
+}
+
+#login{
+    background: #48CED7;
+    margin-left: -285px;
+}
+
