@@ -1,89 +1,175 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" class="no-js">
 <head>
-    <meta charset="UTF_8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create Account</title>
-    <link rel="stylesheet" href="./styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IdioDynami</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600" rel="stylesheet">
+    <link rel="stylesheet" href="styles/landingstyle.css">
+	<script src="https://unpkg.com/animejs@3.0.1/lib/anime.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/dba2e923ac.js" crossorigin="anonymous"></script>
 </head>
 
+<style>
+    body {
+        font-family: 'Roboto', sans-serif; 
+        background-image: url('dist/images/background-image.avif'); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+        background-position: center center;
+        margin: 0;
+    }
+
+    /* ... your other styles ... */
+</style>
+
 <body>
-   <!-- <section class="glass-container">
-        <h2>Glass card</h2>
-        <div class="glass"></div>
-    </section>-->
-
-    <section class="container">
-
-        <section class="side-menu">
-        <div class="logo"><p>IdoDynami</p></div>
-        <div class="content">
+    <section class="header">
+        <div class="logo">
+            <p>IdioDynami</p>
+        </div>
+        <div class="site-header-middle">
             <ul>
-                <p>Dashboard</p>
-                <p>DWN</p>
-                <p>Statistics</p>
-                <p>Premium</p>
-                <p>Settings</p>
+                <li><a href="#About">Main</a></li>
+                <li><a href="#How">Demo</a></li>
+                <li><a href="#Pricing">Pricing</a></li>
+                <li><a href="#Support">Support</a></li>
             </ul>
         </div>
-        </section>
+        <div class="icons">
+            <ul>
+                <li><i class="fa-brands fa-x-twitter"></i></li>
+                <li><i class="fa-brands fa-github"></i></li>
+                <li><i class="fa-brands fa-facebook"></i></li>
+            </ul>
+        </div>
 
-        <section class="main-body">
-            <section class="head">
-                <p id="first">Hello Tommy,</p>
-                <p id="second">Welcome back!</p>
-            </section>
-    
-            <section class="create-dwn">
-                <div class="glass"><p>Create Your DWN</p></div>
-            </section>
-
-            <section class="recent">
-                <div class="glass2">
-                    <h3>Recent Adds</h3>
-                    <div class="item">
-                        <p id="main">Meta</p>
-                        <p id="sub">12 Feb, 2023</p>
-                    </div>
-                    <div class="item">
-                        <p id="main">X.com</p>
-                        <p id="sub">05 Mar, 2023</p>
-                    </div>
-                    <div class="item">
-                        <p id="main">Amazon</p>
-                        <p id="sub">15 Mar, 2023</p>
-                    </div>
-                    <div class="item">
-                        <p id="main">Launch</p>
-                        <p id="sub">09 May, 2023</p>
-                    </div>
-
-                </div>
-            </section>
-
-            <section class="cards">
-                <div class="img">
-                    <img src="images/credit_card.png" alt="credit card ">
-                </div>
-                <div class="img">
-                    <img src="images/credit_card.png" alt="credit card ">
-                </div>
-            </section>
-
-            <section class="reports">
-                <h4>Reports</h4>
-                <p>Coming Soon</p>
-            </section>
-
-        </section>
     </section>
-   
+    
+    <section class="main">
+        <div class="main-text">
+            <p>Take control Of Your Digital Life</p>
+            <p id="under" data-text="Today">Today</p>
+            <p id="under-text">Create and host your personal Decenralized Web Node to Control who has access to your personal data</p>
+        </div>
+        <div class="cta">
+            <p><a href="#" id="now" >Try Now</a></p>
+            <p><a href="#Demo" id="more" > See More</a></p>
+        </div>
+    </section>
+
+    <section class="demo" id="Demo">
+        <h2>How Idiodynami works</h2>
+        <img src="dist/images/demovideo.png"alt="Demo Video Thumbnail">
+        <div class="box">
+            <i class="fas fa-circle-play"></i>
+            <p>Watch The Full Video</p>
+        </div>    
+    </section>
+
+    <section class="tools">
+        <div class="card-holder">
+            <div class="card">
+                <i class="fa-solid fa-address-card"></i>
+                <h4>Decentralized Identifier</h4>
+                <p>Create your own Decentralized Identifier and be a part of the new evolution</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-circle-nodes"></i>
+                <h4>Decentralized Web Node</h4>
+                <p>Host your personal datastore</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-check-to-slot"></i>
+                <h4>Self-Service Identity Service</h4>
+                <p>Issue, verify, and revoke Verifiable Credentials with ease. Be in control, protect your privacy, and unlock the power of self-sovereign identity.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="Howto">
+        <h1>Get started in minutes and<br> take control of your digital life in one<br> place</h1>
+        <div class="image-holder">
+            <img src="dist/images/atm-card.png">
+            <img src="dist/images/certificate.png">
+            <img src="dist/images/correct.png">
+        </div>
+        <div class="step-holder">
+            <div class="step">
+                <p id="no">1</p>
+                <h5>Sign Up</h5>
+                <p>Sign Up and create an account</p>
+            </div>
+
+            <div class="step">
+                <p id="no">2</p>
+                <h5>Define your space</h5>
+                <p>Create your Decentralized Identifier with our graphical interface(no need to write code). Choose a personal device or of our hosting plans to create your DigitalStore</p>
+            </div>
+
+            <div class="step">
+                <p id="no">3</p>
+                <h5>Take Charge</h5>
+                <p>Issue, verify, and revoke Verifiable Credentials with ease. Make real-time decisions to be in control, protect your privacy, and unlock the power of self-sovereign identity.</p>
+            </div>
+        </div>
+    </section>
+
+  <!-- <section class="plans-section">
+        <div class="plan-card starter-plan">
+            <div class="plan-details">
+                <h3>Starter Plan</h3>
+                <p>$0</p>
+                <button class="start-plan-btn">Start Plan</button>
+                <ul>
+                    <li>Contactless payments</li>
+                    <li>Mobile payments</li>
+                    <li>Extra card (optional)</li>
+                    <li>Free payments worldwide</li>
+                    <li>Free domestic ATM withdrawals</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="plan-card personal-plan">
+            <div class="plan-details">
+                <h3>Personal Plan</h3>
+                <p>$9.99/month</p>
+                <button class="start-plan-btn">Start Plan</button>
+                <ul>
+                    <li>Contactless payments</li>
+                    <li>Mobile payments</li>
+                    <li>Extra card (optional)</li>
+                    <li>Free payments worldwide</li>
+                    <li>Free domestic ATM withdrawals</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="plan-card team-plan">
+            <div class="plan-details">
+                <h3>Team Plan</h3>
+                <p>$19.99/month</p>
+                <button class="start-plan-btn">Start Plan</button>
+                <ul>
+                    <li>Contactless payments</li>
+                    <li>Mobile payments</li>
+                    <li>Extra card (optional)</li>
+                    <li>Free payments worldwide</li>
+                    <li>Free domestic ATM withdrawals</li>
+                </ul>
+            </div>
+        </div>
+    </section> -->
+
+
+    <section class="footer">
+
+    </section>
 </body>
-
-
-
-
-
-</html>
