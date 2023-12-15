@@ -16,35 +16,7 @@ body{
     height: auto;
 }
 
-/*.glass-container h2{
-    font-size: 5em;
-    color: aquamarine;
-    text-shadow: 0 10px 20px rgba(0, 0, 0, .5);
-    pointer-events: none;
-    user-select: none;
-}
-
-.glass-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
-
-.glass-container .glass{
-    position: absolute;
-    width: 400px;
-    height: 200px;
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 25px 45px rgba(0, 0, 0, .2);
-    border-radius: 50px;
-    border: 2px solid rgba(255, 255, 255, .5);
-    border-right: 2px solid rgba(255, 255, 255, .2);
-    border-bottom: 2px solid rgba(255, 255, 255, .2);
-    backdrop-filter: blur(3px);
-}*/
-
-/** Side-Menu**/
+/** side menu **/
 
 .side-menu{
     width: 20%;
@@ -180,12 +152,11 @@ main-body{
 
   }
 
-  h3{
+  .glass2 h3{
     font-weight: 800;
     font-size: 25px;
-    margin: 15px auto;
+    margin: 10px auto;
     color: #fff;
-
   }
 
   .item{
@@ -212,7 +183,7 @@ main-body{
 
   .cards{
     position: relative;
-    top: -34%;
+    top: -24%;
     left: 55%;
     display: flex;
     flex-direction: column;
@@ -227,7 +198,7 @@ main-body{
 
  .reports{
     position: relative;
-    top: -85%;
+    top: -61%;
     left: 120%;
     border: 2px solid rgba(255, 255, 255, 0.5);
     background: rgba(255, 255, 255, 0.1);
@@ -236,10 +207,15 @@ main-body{
     backdrop-filter: blur(10px);
     width: 250px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    height: 300px;
  }
+
+ .reports h4, .reports p {
+    margin: 5px; /* Add some spacing between the elements */
+}
 
  .reports h4{
     color: #fff;
