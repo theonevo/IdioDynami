@@ -12,7 +12,7 @@ Idiodynami is an application that aims to empower you with a virtual space to st
 * **Beyond Preferences:** Store more than just likes and dislikes. Certificates, educational degrees, badges, credentials, even payment details - your DWN can become your central hub for all your digital assets.
 * **Flexible Storage:** Not everyone wants everything virtual. Choose to store specific data on your personal device, allocating space within your internal storage for a hybrid DWN experience.
 
-**Key Features:**
+# Key Features:
 
 * **DWN creation:** Craft your personalized DWN on a virtual device, accessible from your mobile phone or PC.
 * **Data tracking (optional):** Enable trackers on your personal device to automatically gather information about your preferences and automatically update your DWN.
